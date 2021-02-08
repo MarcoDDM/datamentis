@@ -20,7 +20,7 @@ export class Header extends Component {
     return (
       <div>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="/">AsyncData</Navbar.Brand>
+          <Navbar.Brand className='brand' href="/"> DataMentis</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">

@@ -444,7 +444,7 @@ export class Configure extends Component {
           <DialogContent>
             <List dense={dense}>
               <ListItem>
-                <ListItemText primary="Archivos subido" />
+                <ListItemText primary="Archivos subidos correctamente" />
                 <ListItemSecondaryAction>
                   <IconButton aria-label="CloudDone">
                     <CloudDoneIcon />

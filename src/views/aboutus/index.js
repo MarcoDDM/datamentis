@@ -29,7 +29,7 @@ export class AboutUs extends Component {
                 Quizás también pensaste en dejarles algunas ideas o instrucciones en caso de que algo te pase.
                 <br />
                 <br />
-                Bueno, esa es la idea de AsyncData, usarlo es muy simple: te registrás con un mail válido, escribís
+                Bueno, esa es la idea de DataMentis, usarlo es muy simple: te registrás con un mail válido, escribís
                 tu mensaje al que le podés incluir algún link (por ejemplo un video privado de youtube) o adjuntarle los
                 archivos que quieras. Después elegís el o los destinatarios, la frecuencia de aviso de supervivencia y
                 listo! 
@@ -39,7 +39,7 @@ export class AboutUs extends Component {
                 destinatarios que hayas elegido. 
                 <br />
                 <br />
-                AsyncData está pensado para que evites preocuparte por los mensajes que querés dejar, hay veces que
+                DataMentis está pensado para que evites preocuparte por los mensajes que querés dejar, hay veces que
                 necesitamos que nadie sepa lo que dejamos hasta que llegue ese momento, o bien no estamos seguros en
                 pedirle a una persona que tenga la responsabilidad de darle todas las instrucciones o mensajes que
                 queremos para nuestros seres queridos.

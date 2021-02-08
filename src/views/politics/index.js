@@ -8,7 +8,7 @@ export class Politics extends Component {
         <br />
         <h1 className="title-politics">POLÍTICA DE PRIVACIDAD</h1>
         <br/>
-        La presente Política de Privacidad establece los términos en que <b>AsyncData</b> usa y protege la información que
+        La presente Política de Privacidad establece los términos en que <b>DataMentis</b> usa y protege la información que
         es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la
         seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual
         usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este
@@ -29,7 +29,7 @@ export class Politics extends Component {
         brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y
         podrán ser cancelados en cualquier momento. <br />
         <br />
-        <b>AsyncData</b> está altamente comprometido para cumplir con el compromiso de mantener su información segura.
+        <b>DataMentis</b> está altamente comprometido para cumplir con el compromiso de mantener su información segura.
         Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso
         no autorizado. <br />
         <br />
@@ -60,7 +60,7 @@ export class Politics extends Component {
         Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento,
         salvo que sea requerido por un juez con una orden judicial. <br />
         <br />
-        AsyncData Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier
+        DataMentis Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier
         momento.
       </div>
     );

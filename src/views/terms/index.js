@@ -9,7 +9,7 @@ export class Terms extends Component {
         <h1 className="title-terms">Terminos y condiciones</h1>
         <br />
         Los presentes Términos y Condiciones son aplicables a la utilización de la aplicación web denominada
-        AsyncData (en adelante “la aplicación”), sus servicios o activos digitales. <br />
+        DataMentis (en adelante “la aplicación”), sus servicios o activos digitales. <br />
         <br />
         El registro y uso de la aplicación por parte de un usuario (en adelante el/los “Usuario/s”) indica la aceptación
         absoluta de los presentes Términos y Condiciones y de la Política de Privacidad. <br />
@@ -26,7 +26,7 @@ export class Terms extends Component {
         omisión de los presentes Términos y Condiciones de Uso generarán el derecho a favor del Administrador de
         suspender al Usuario que las haya realizado. <br />
         <br />
-        El Usuario se obliga a usar AsyncData® de conformidad con estos Términos y Condiciones, en forma correcta y
+        El Usuario se obliga a usar DataMentis de conformidad con estos Términos y Condiciones, en forma correcta y
         lícita. En caso contrario, el Administrador podrá suspender la cuenta del Usuario, por considerarlo: violatorio
         de estos Términos y Condiciones y/o de la Política de Privacidad de esta aplicación, ofensivo, ilegal,
         violatorio de derechos de terceros, contrario a la moral y buenas costumbres y amenaza la seguridad de otros
@@ -39,7 +39,7 @@ export class Terms extends Component {
         <ul>
           <li>No acceder a datos restringidos o a intentar violar las barreras de seguridad para llegar a ellos.</li>
           <li>No realizar búsquedas de vulnerabilidades o explotación de las mismas para cualquier fin.</li>
-          <li>No divulgar información acerca de la detección de vulnerabilidades encontradas en AsyncData®.</li>
+          <li>No divulgar información acerca de la detección de vulnerabilidades encontradas en DataMentis.</li>
           <li>
             Comunicar al Administrador toda información a la que tenga acceso que pudiera implicar un compromiso a la
             seguridad de la información o a la aplicación.
@@ -74,9 +74,9 @@ export class Terms extends Component {
           <li>Vulnerar los derechos establecidos en la Ley N° 25.326 de Protección de Datos Personales.</li>
         </ul>
         En caso de sufrir alguna de estas situaciones, deberá comunicarse con el Administrador a través del correo
-        electrónico <b>testamentoapp@gmail.com</b>. <br />
+        electrónico <b>DataMentis@---.com</b>. <br />
         <br />
-        <h3>Uso General a través de cuenta en AsyncData®</h3>
+        <h3>Uso General a través de cuenta en DataMentis</h3>
         Requiere inscripción previa a través de un formulario en línea que deberá ser completado por el Usuario. De esta
         forma las personas podrán inscribirse y crear una contraseña que les permitirá acceder a la plataforma. <br />
         <br />
@@ -111,7 +111,7 @@ export class Terms extends Component {
         <br />
         <h3>Modificación de los Términos y Condiciones</h3>
         El Administrador se reserva el derecho de modificar estos Términos y Condiciones en cualquier momento,
-        comprometiéndose a anunciarlo por medio de un aviso en AsyncData.dom<br />
+        comprometiéndose a anunciarlo por medio de un aviso en DataMentis.dom<br />
         <br />
         <h3>Enlaces con otros sitios, productos y servicios</h3>
         La aplicación pueden contener enlaces hacia sitios, productos y/o servicios de terceros, no obstante, el
