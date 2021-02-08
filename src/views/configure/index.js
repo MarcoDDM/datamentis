@@ -427,7 +427,7 @@ export class Configure extends Component {
                   disabled={emailVerification === false || isUploading === true || !someFile}
                   onClick={this.update}
                 >
-                  {isLoading ? "Enviando…" : "¡testAPPmento LISTO!"}
+                  {isLoading ? "Enviando…" : "¡LISTO!"}
                 </Button>
               </Col>
             </Row>
@@ -514,7 +514,7 @@ export class Configure extends Component {
                 <b>{repetitionsInfo}</b>. Recuerda que tienes <b>1 semana</b> para confirmarlo de lo contrario será
                 enviado.
               </p>
-              <p>Cualquier duda puedes escribirnos a testamentoapp@gmail.com y te responderemos a la brevedad.</p>
+              <p>Cualquier duda puedes escribirnos a marantal2015@gmail.com y te responderé a la brevedad.</p>
             </div>
           </DialogContent>
           <DialogActions>
