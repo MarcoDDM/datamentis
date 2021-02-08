@@ -1,0 +1,54 @@
+.main-register {
+  position: relative;
+  width: 100%;
+}
+
+.container-register {
+  width: 100%;
+  margin-top: 74px;
+}
+
+.form-register {
+  text-align: center;
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+
+.main-register h1 {
+  text-align: center;
+}
+
+.main-register {
+  padding-top: 3%;
+}
+
+.steps-register ol {
+  color: rgb(118, 123, 128);
+  width: 90%;
+}
+
+.steps-register ol li {
+  padding-bottom: 1%;
+}
+
+@media (max-width: 768px) {
+  .form-register {
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 10%;
+  }
+
+  .container-register {
+    display: block !important;
+  }
+
+  .steps-register ol {
+    width: 100%;
+  }
+
+  .steps-register h3 {
+    text-align: center;
+  }
+}

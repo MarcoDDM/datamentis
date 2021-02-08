@@ -1,0 +1,13 @@
+.main-newuser {
+  text-align: center;
+}
+
+.main-newuser img {
+  width: 10%;
+}
+
+@media (max-width: 768px) {
+  .main-newuser img {
+    width: 40%;
+  }
+}

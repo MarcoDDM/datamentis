@@ -1,0 +1,25 @@
+.menu-footer a {
+  color: black;
+}
+
+.menu-footer a:visited {
+  color: black;
+}
+
+.menu-footer a:hover {
+  color: rgb(87, 82, 82);
+}
+
+.year-footer span {
+  position: absolute;
+  right: 0px;
+}
+
+@media (max-width: 786px) {
+  .year-footer span {
+    position: relative;
+  }
+  .year-footer {
+    text-align: center;
+  }
+}

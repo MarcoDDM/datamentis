@@ -1,0 +1,18 @@
+.container-politics {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  margin-bottom: 10%;
+}
+
+.title-politics {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container-politics {
+    width: 96%;
+    left: 2%;
+    text-align: justify;
+  }
+}

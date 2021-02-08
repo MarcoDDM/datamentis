@@ -1,0 +1,18 @@
+.container-terms {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  margin-bottom: 10%;
+}
+
+.title-terms {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container-terms {
+    width: 96%;
+    left: 2%;
+    text-align: justify;
+  }
+}

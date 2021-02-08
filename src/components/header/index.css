@@ -1,0 +1,10 @@
+.inicio-sesion-header {
+  display: none !important;
+  color: rgba(255, 255, 255, 0.70);
+}
+
+@media (max-width: 768px) {
+  .inicio-sesion-header {
+    display: inline !important;
+  }
+}

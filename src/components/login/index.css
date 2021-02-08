@@ -1,0 +1,28 @@
+.main-login {
+  position: relative;
+  text-align: center;
+  display: inline;
+}
+
+.form-login {
+  text-align: center;
+  position: relative;
+  display: inline;
+}
+
+.input-login {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .form-login {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    left: 0%;
+  }
+
+  .input-login {
+    margin-bottom: 1rem !important;
+  }
+}

@@ -1,0 +1,17 @@
+.container-aboutus {
+    position: relative;
+    width: 80%;
+    left: 10%;
+  }
+  
+  .title-aboutus {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .container-aboutus {
+      width: 96%;
+      left: 2%;
+      text-align: justify;
+    }
+  }

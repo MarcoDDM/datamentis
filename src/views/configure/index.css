@@ -1,0 +1,94 @@
+.main-configure {
+  position: relative;
+  width: 100%;
+}
+
+.receiver-configure {
+  position: relative;
+  width: 70%;
+  left: 15%;
+}
+
+.subject-configure {
+  position: relative;
+  width: 70%;
+  left: 15%;
+}
+
+.message-configure {
+  position: relative;
+  width: 70%;
+  left: 15%;
+}
+
+.final-configure {
+  position: relative;
+  width: 70%;
+  left: 15%;
+}
+
+.attachInput-configure {
+  width: 100%;
+}
+
+.attachments-configure {
+  text-align: center;
+}
+
+.button-configure {
+  width: 100%;
+}
+
+.time-configure {
+  position: relative;
+  width: 70%;
+  left: 15%;
+}
+
+@media (max-width: 768px) {
+  .receiver-configure {
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+
+  .subject-configure {
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+
+  .message-configure {
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+
+  .final-configure {
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+
+  .time-configure {
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+
+  .col-md-auto {
+    text-align: center;
+  }
+
+  .col-md-auto .btn-success {
+    margin: 2%;
+  }
+
+  .attachments-configure a {
+    margin-bottom: 2%;
+  }
+
+  .col-md-auto .btn-success {
+    margin-top: 2%;
+  }
+}
