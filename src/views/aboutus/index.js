@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
-import testament from "../../assets/images/testament.jpeg";
+import testament from "../../assets/images/Notaries.svg";
 import "./index.css";
 
 export class AboutUs extends Component {
@@ -12,7 +12,7 @@ export class AboutUs extends Component {
             <b>No todos los secretos queremos llevarlos a la tumba</b>{" "}
           </h1>
         )}
-        <br />
+        <br /><br />
         <div className="container-home">
           <Row>
             <Col sm={"auto"}>
@@ -52,9 +52,6 @@ export class AboutUs extends Component {
                 Nos tomamos muy enserio tu privacidad, la información se encuentra encriptada con AES-256, por lo que no
                 tenemos forma de acceder al contenido de tu mensaje y una vez enviado el mismo automáticamente se borra
                 de nuestra base de datos conjuntamente con tu cuenta.
-                <br />
-                <br />
-                ¡Bienvenido!
               </div>
             </Col>
           </Row>

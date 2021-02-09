@@ -12,6 +12,10 @@ body {
   font-family: 'Anton', sans-serif;
 }
 
+.title-home {
+  font-family: 'Anton', sans-serif;
+}
+
 .container-app {
   min-height: calc(100vh - 70px);
 }
@@ -26,6 +30,7 @@ body {
   }
 
   .footer-app {
+    margin-top: 10px;
     height: 110px;
   }
 }

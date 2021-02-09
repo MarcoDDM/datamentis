@@ -16,8 +16,9 @@ export class Home extends Component {
     return (
       <div>
         <h1 className="title-home">
-          <b>No todos los secretos queremos llevarlos a la tumba</b>{" "}
+          <b>DataMentis</b>
         </h1>
+        <center><h2>No todos los secretos queremos llevarlos a la tumba</h2></center>
         {!localStorage.getItem("uid") ? <Register /> : <AboutUs />}
       </div>
     );

@@ -26,9 +26,11 @@ function Transition(props) {
 }
 
 export class Configure extends Component {
+
+      
+
   constructor() {
     super();
-
     this.state = {
       receiversText: "",
       subject: "",
@@ -53,6 +55,7 @@ export class Configure extends Component {
     this.getData = this.getData.bind(this);
   }
 
+
   async componentDidMount() {
     const uid = localStorage.getItem("uid");
     if (uid) {
@@ -74,7 +77,7 @@ export class Configure extends Component {
             }
             if (this.state.selector === "2592000000") {
               this.setState({
-                repetition: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
+                repetition: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
               });
             }
           }
@@ -121,7 +124,7 @@ export class Configure extends Component {
     const selector = document.getElementById("selector").value;
     const repetitions = document.getElementById("repetitions").value;
     if (receiversText === "" || message === "" || subject === "") {
-      alert("Algunos campos vacios");
+      alert("Algunos campos están vacíos");
     } else {
       if (uid && emailVerification) {
         this.setState({ isLoading: true });
@@ -250,11 +253,11 @@ export class Configure extends Component {
 
   handleChange = event => {
     if (event.target.value === "604800000") {
-      this.setState({ repetition: ["1", "2", "3"] });
+      this.setState({ repetition: ["1", "2", "3", "4"] });
     }
     if (event.target.value === "2592000000") {
       this.setState({
-        repetition: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
+        repetition: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
       });
     }
     document.getElementById("repetitions").value = "1";
@@ -416,7 +419,7 @@ export class Configure extends Component {
                     </Row>
                   </form>
                   <a href="#listfiles" onClick={e => this.openListFiles(e)}>
-                    Lista de archivos subidos
+                    Listado de archivos subidos
                   </a>
                 </div>
               </Col>
