@@ -1,5 +1,5 @@
 {
-  "homepage": "https://marcoddm.github.io/datamentis",
+  "homepage": "https://datamentis.netlify.app",
   "name": "Datamentis",
   "version": "1.2.0",
   "private": true,
@@ -20,10 +20,8 @@
     "validator": "^10.11.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build & rm -rf docs && mv build docs",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
