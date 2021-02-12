@@ -1,4 +1,5 @@
-{ "homepage": "https://datamentis.netlify.app",
+{
+  "homepage": "https://marcoddm.github.io/datamentis",
   "name": "Datamentis",
   "version": "1.2.0",
   "private": true,
@@ -7,6 +8,8 @@
     "@material-ui/icons": "^3.0.2",
     "bootstrap": "4.3.1",
     "firebase": "^8.2.6",
+    "g": "^2.0.1",
+    "netlify-cli": "^3.7.1",
     "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.4",
@@ -20,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build & rm -rf docs && mv build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
