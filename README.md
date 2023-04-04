@@ -1,3 +1,5 @@
+<div align="center"><img src="datamentis.png"></div>
+
 ## Application for Testament
 This is an application for creating and sending testament messages, built with the MERN stack and integrated with Google APIs including Gmail and Google Drive.
 
